@@ -43,7 +43,7 @@ export default {
     submit() {
       axios
         .post(
-          'https://portfolio-site-nuxt.firebaseio.com/homePageImages.json',
+          'https://portfolio-nuxt.firebaseio.com/homePageImages.json',
           {
             ...this.image,
           }

@@ -24,7 +24,7 @@ export default {
   },
   created() {
     axios
-      .get('https://portfolio-site-nuxt.firebaseio.com/aboutPage.json')
+      .get('https://portfolio-nuxt.firebaseio.com/aboutPage.json')
       .then((response) => {
         let data = response.data
 

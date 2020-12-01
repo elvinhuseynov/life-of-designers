@@ -28,7 +28,7 @@ export default {
   methods: {
     submit() {
       axios
-        .post('https://portfolio-site-nuxt.firebaseio.com/aboutPage.json', {
+        .post('https://portfolio-nuxt.firebaseio.com/aboutPage.json', {
           ...this.info,
         })
         .then((response) => {

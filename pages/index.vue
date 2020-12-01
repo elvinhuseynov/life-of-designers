@@ -26,7 +26,7 @@ export default {
   },
   created() {
     axios
-      .get('https://portfolio-site-nuxt.firebaseio.com/homePageImages.json')
+      .get('https://portfolio-nuxt.firebaseio.com/homePageImages.json')
       .then((response) => {
         let data = response.data
         for (let key in data) {

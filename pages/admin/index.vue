@@ -27,7 +27,7 @@ export default {
     submit() {
       axios
         .get(
-          'https://portfolio-site-nuxt.firebaseio.com/adminPass/-MHVfvzzzg6UBSfYQ6uQ/pass.json'
+          'https://portfolio-nuxt.firebaseio.com/adminPass/admin/pass.json'
         )
         .then((response) => {
           this.data = response.data
